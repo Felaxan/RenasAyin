@@ -217,6 +217,20 @@ button:hover a {
       .col-2 {
           width: 17.5625rem;
       }
+
+      .map button a {
+        /* align-items: center;
+        background-color: var(--heading);
+        color: var(--background);
+        font-family: 'Big Shoulders Display', sans-serif;
+        font-size: 1.25rem;
+        font-weight: 800;
+        letter-spacing: 3.64px;
+        line-height: 1.49625rem;
+        text-decoration: none;
+        text-transform: uppercase; */
+        width: 100px;
+    }
   }
 
 

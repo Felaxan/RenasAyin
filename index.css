@@ -5,9 +5,7 @@
     --background: #FFFFFF;
 }
 
-/*---------
-    Ana Düzen
-  ---------*/
+/* Ana Düzen */
 
 
   *,
@@ -20,9 +18,7 @@
       -webkit-font-smoothing: antialiased;
   }
 
-/*----------------
-    Global Stiller
-  ----------------*/
+/*- Global Stiller- */
 
 body {
   background-color: var(--background);
@@ -146,9 +142,9 @@ footer p {
     margin-top: 2.375rem;
     margin-bottom: 2.375rem;
 }
-/*---------------
+/*
     Link/Buton
-  ---------------*/
+  */
 
 .arrow, 
 .link {
@@ -203,9 +199,9 @@ footer a:hover {
     color: var(--accent);
 }
 
-/*------------------
+/*
     Tablet Görünümü
-  ------------------*/
+  */
 @media screen and (min-width: 768px) {
    /* Typography Tablet*/ 
    h1 {
@@ -313,9 +309,9 @@ footer a:hover {
     }
 }
 
-/*------------------
+/*
     Bilgisayar Görünümü
-  ------------------*/
+  */
 
   @media screen and (min-width: 1200px){
 
