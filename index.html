@@ -8,10 +8,11 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&family=Outfit:wght@300&display=swap"
     rel="stylesheet">
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- Stylesheet -->
+  <!-- CSS Dosyası -->
   <link rel="stylesheet" href="index.css">
 
   <title>Ödev 3 | Resim Galerisi Web sitesi</title>
@@ -19,6 +20,7 @@
 
 <body>
   <main>
+    <!-- Hero sınıfı görseli ve başlık içeren başlık bölümü -->
     <header class="hero">
       <picture class="hero__img">
         <source media="(min-width: 1000px)"
@@ -38,13 +40,14 @@
           <div class="hero__link">
             <a href="harita.html">Our location</a>
             <div class="hero__arrow">
+              <!--Ok ikonu -->
               <img src="./assets/icon-arrow-right.svg" alt="Right arrow">
             </div>
           </div>
         </div>
       </div>
     </header>
-
+    <!-- Web sayfasındaki içeriğin yer aldığı bölüm. -->
     <div class="section-wrapper">
       <section class="section__section--1">
         <picture class="section__grid__section__grid--1">
@@ -57,13 +60,16 @@
         </picture>
 
         <div class="section__container">
+          <!-- Başlık -->
           <h2 class="section__title">Your day<span></span> at the gallery</h2>
+          <!-- Metin açıklaması -->
           <p class="section__text">Wander through our distinct collections and find new insights about
             our artists. Dive into the details of their creative process.</p>
         </div>
       </section>
 
       <section class="section__section--2">
+        <!-- İkinci resim için picture etiketi -->
         <picture class="section__grid__section__grid--2">
           <source media="(min-width: 1339px)"
             srcset="./assets/desktop/image-grid-2.jpg, ./assets/desktop/image-grid-2@2x.jpg 2x">
@@ -72,6 +78,7 @@
           <img src=" ./assets/mobile/image-grid-1.jpg" srcset="./assets/mobile/image-grid-2@2x.jpg"
             alt="Image of light colored wood bench inside of museum facing a large photographic print of part of a circular stairwell">
         </picture>
+        <!-- Resim ve metin kutuları için div etiketi -->
 
         <div class="section__container__section__container--inspired">
           <picture class="section__grid__section__grid--3">
@@ -95,18 +102,29 @@
       </section>
     </div>
   </main>
-
+  <!-- Web sayfasındaki en alt kısım. -->
   <footer class="footer">
+    <!-- Footer container başlangıç -->
     <div class="footer__container">
+      <!-- Footer başlık başlangıç -->
       <h3 class="footer__title">Modern<br> Art Gallery</h3>
+      <!-- Footer başlık bitiş -->
+      <!-- Footer metin başlangıç -->
+
       <p class="footer__text">The Modern Art Gallery is free to all visitors and open seven days a week
         from 8am to 9pm. Find us at 99 King Street, Newport, USA.</p>
+      <!-- Footer metin bitiş -->
+      <!-- Footer sosyal medya linkleri başlangıç -->
       <div class="footer__social-links">
         <a href="facebook.com" class="footer__social-link"><i class="fab fa-facebook-square"></i></a>
         <a href="instagram.com" class="footer__social-link"><i class="fab fa-instagram"></i></a>
         <a href="twitter.com" class="footer__social-link"><i class="fab fa-twitter"></i></a>
+        <!-- Footer sosyal medya linkleri bitiş -->
+
       </div>
     </div>
+    <!-- Footer container bitiş -->
+
   </footer>
 
 </body>
